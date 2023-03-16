@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+:root{
+    --clr-pri-pblue:hsl(225, 100%, 94%);
+    --clr-pri-Bblue:hsl(245, 75%, 52%);
+
+    --clr-neu-Vpblue:hsl(225, 100%, 98%);
+    --clr-neu-Ddblue:hsl(224, 23%, 55%);
+    --clr-neu-Dblue:hsl(223, 47%, 23%);
+
+    --ff-main: 'Outfit', sans-serif;
+    --ff-main2: 'Red Hat Display', sans-serif;
+
+    --fw-medium:500;
+    --fw-bold:700;
+    --fw-black:900;
+}
+
+
+* {
+  margin: 0;
+  
+}
+
+
+html, body {
+    height: 100%;
+    padding-inline: 20px;
+    padding-block: 40px;
+    background: var(--clr-pri-pblue);
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+img{
+    border-top-right-radius:20px ;
+    border-top-left-radius:20px ;
+}
+
+.card{
+    background: var(--clr-neu-Vpblue);
+    height: 70vh;
+    border-top-right-radius:20px ;
+    border-top-left-radius:20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.144);
+}
+
+.plan{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+h1,h4{
+    font-family: var(--ff-main);
+    font-size: 22px;
+    font-weight: var(--fw-bold);
+    color: var(--clr-neu-Dblue);
+}
+p{
+    color: var(--clr-neu-Ddblue);
+    font-size: 15px;
+    font-family: var(--ff-main2);
+    color: var(--clr-neu-Ddblue);
+    font-weight: var(--fw-medium);
+}
+h4{
+    font-size: 15px;
+}
+.buttons{
+    width: 100%;
+    height: 125px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+button{
+    color:var(--clr-pri-pblue);
+    background: var(--clr-pri-Bblue);
+    border-radius: 8px;
+    width: 270px;
+    height: 50px;
+    font-family: var(--ff-main2);
+    font-weight: var(--fw-black);
+    font-size: 15px;
+    box-shadow: 2px 3px 10px hsl(245, 75%, 52%);
+}
+
+button:hover{
+    background:var(--clr-neu-Ddblue) ;
+}
