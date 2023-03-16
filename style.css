@@ -73,7 +73,7 @@ img{
     flex-direction: column;
     gap:1rem;
 }
-h1,h4{
+h1,h2{
     font-family: var(--ff-main);
     font-size: 22px;
     font-weight: var(--fw-bold);
@@ -86,7 +86,7 @@ p{
     color: var(--clr-neu-Ddblue);
     font-weight: var(--fw-medium);
 }
-h4{
+h2{
     font-size: 15px;
 }
 .buttons{
