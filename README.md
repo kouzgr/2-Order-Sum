@@ -19,11 +19,11 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Here Is My Solution](https://your-solution-url.com)
-- Live Site URL: [Here Is My Live Site](https://your-live-site-url.com)
+- Solution URL: [Here Is My Solution](https://www.frontendmentor.io/solutions/order-summary-kfLwwHzBMl)
+- Live Site URL: [Here Is My Live Site](https://snazzy-chebakia-68eb56.netlify.app)
 
 ## My process
-None faced many problems need improve
+Learned about em and rem trying make responsive layouts
 
 ### Built with
 
@@ -34,27 +34,24 @@ None faced many problems need improve
 
 I learned about :hover 
 ```
-button:hover{
-  background:var(--clr-neu-Ddblue) ;
+example:hover{
+  background: var(--clr-pri-Bblue2);
+  box-shadow: 0px 3px 20px hsl(245, 45%, 50%);
+}
+
+.example:hover{
+  color: var(--clr-neu-Dblue);
 }
 ```
 and i learned about box shadows
 ```
-button{
-  color:var(--clr-pri-pblue);
-  background: var(--clr-pri-Bblue);
-  border-radius: 8px;
-  width: 270px;
-  height: 50px;
-  font-family: var(--ff-main2);
-  font-weight: var(--fw-black);
-  font-size: 15px;
-  box-shadow: 2px 3px 10px hsl(245, 75%, 52%);
+example{
+  box-shadow: 0px 3px 20px hsl(245, 45%, 50%);
+  box-shadow: 0px 1.25px 1.25px rgba(0, 0, 0, 0.08);
 }
 ```
 ### Continued development
-
-I have to improve my padding margin understanding and learn how to change media
+How media works,Site responsivnes
 
 ## Author
 
