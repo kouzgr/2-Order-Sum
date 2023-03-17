@@ -19,7 +19,7 @@
 
 * {
   margin: 0;
-  
+  padding: 0;
 }
 
 
@@ -29,12 +29,18 @@ html, body {
     background: var(--clr-pri-pblue);
 }
 
-
-@media (min-width: 700px)  {
-    html, body{
-        padding: 3em 16em;
-    }
+html, body {
+    height: 100%;
+    padding: 2.5em 0.75em;
+    background: var(--clr-pri-pblue);
+    display: flex;
+    justify-content: center;
 }
+
+main{
+    max-width: 28rem;
+}
+
 img, picture, video, canvas, svg {
   display: block;
   max-width: 100%;
